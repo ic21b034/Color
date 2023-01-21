@@ -12,6 +12,7 @@ public class TestColor {
     assertEquals("Red", ColorProcessor.findColor("Green"));
     }
 
+
     @Test
     void findColorFalse(){
         assertNotEquals("Green",ColorProcessor.findColor("Blue"));
